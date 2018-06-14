@@ -1,0 +1,12 @@
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\bin\Debug\Draw3D.exe
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\bin\Debug\Draw3D.pdb
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\obj\x86\Debug\Draw3D.FormMain.resources
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\obj\x86\Debug\Draw3D.exe
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\obj\x86\Debug\Draw3D.pdb
+D:\Документы\C#\Book\Ch12 GDI\Draw3D\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb

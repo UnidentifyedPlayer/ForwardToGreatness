@@ -1,0 +1,11 @@
+D:\ConsoleApplication6\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+D:\ConsoleApplication6\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+D:\ConsoleApplication6\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+D:\ConsoleApplication6\WindowsFormsApplication2\bin\Debug\Logic_1_1.dll
+D:\ConsoleApplication6\WindowsFormsApplication2\bin\Debug\Logic_1_1.pdb
+D:\ConsoleApplication6\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+D:\ConsoleApplication6\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Form1.resources
+D:\ConsoleApplication6\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+D:\ConsoleApplication6\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+D:\ConsoleApplication6\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+D:\ConsoleApplication6\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb

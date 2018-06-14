@@ -1,0 +1,131 @@
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\bin\Debug\Draw3D.exe
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\bin\Debug\Draw3D.pdb
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMain.resources
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\SpeedButton.resources
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+D:\Документы\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\bin\Debug\Draw3D.exe
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\bin\Debug\Draw3D.pdb
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMain.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\SpeedButton.resources
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\C#\Book\Ch12 GDI\Graph\Draw3D\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\bin\Debug\Draw3D.exe
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\bin\Debug\Draw3D.pdb
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\SpeedButton.resources
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormGraph.resources
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\bin\Debug\Draw3D.exe
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\bin\Debug\Draw3D.pdb
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormGraph.resources
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\SpeedButton.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\bin\Debug\Draw3D.exe
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\bin\Debug\Draw3D.pdb
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\ResolveAssemblyReference.cache
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormGraph.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\SpeedButton.resources
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\GenerateResource.read.1.tlog
+L:\Лекции\1 Курс\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\GenerateResource.write.1.tlog
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\PrGraph.csprojResolveAssemblyReference.cache
+H:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\PrGraph.csproj.GenerateResource.Cache
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\Документы\Лекции\АиСД C#\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\GenerateResource.write.1.tlog
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\bin\Debug\Draw3D.exe
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\bin\Debug\Draw3D.pdb
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\PrGraph.csprojResolveAssemblyReference.cache
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormGraph.resources
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\SpeedButton.resources
+L:\Лекции\1 Курс\АиСД C#\2017\Лекция 8 Графы\Graph\Draw3D\obj\x86\Debug\PrGraph.csproj.GenerateResource.Cache
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\bin\Debug\Draw3D.exe
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\bin\Debug\Draw3D.pdb
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormGraph.resources
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\SpeedButton.resources
+L:\Лекции\1 Курс\АиСД C#\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\PrGraph.csproj.GenerateResource.Cache
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.exe
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.pdb
+D:\2018\Лекция 7 Графы\Graph\Draw3D\bin\Debug\Draw3D.exe
+D:\2018\Лекция 7 Графы\Graph\Draw3D\bin\Debug\Draw3D.pdb
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\PrGraph.csprojResolveAssemblyReference.cache
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormGraph.resources
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\SpeedButton.resources
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\PrGraph.csproj.GenerateResource.Cache
+D:\2018\Лекция 7 Графы\Graph\Draw3D\obj\x86\Debug\Draw3D.FormMyCustomDialog.resources
+D:\6.8.1\Draw3D\bin\Debug\Draw3D.exe
+D:\6.8.1\Draw3D\bin\Debug\Draw3D.pdb
+D:\6.8.1\Draw3D\obj\x86\Debug\PrGraph.csprojResolveAssemblyReference.cache
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.FormListBox.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.FormGraph.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.FormMatrix.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.FormMyCustomDialog.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.FormMyDialog.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.FormProperty.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.FormTools.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.Properties.Resources.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\SpeedButton.resources
+D:\6.8.1\Draw3D\obj\x86\Debug\PrGraph.csproj.GenerateResource.Cache
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.exe
+D:\6.8.1\Draw3D\obj\x86\Debug\Draw3D.pdb
