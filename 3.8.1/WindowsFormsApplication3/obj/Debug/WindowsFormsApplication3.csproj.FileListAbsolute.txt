@@ -9,3 +9,14 @@ D:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsAppli
 D:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
 D:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
 D:\WindowsFormsApplication3\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe.config
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.exe
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.pdb
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.exe
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\bin\Debug\WindowsFormsApplication3.pdb
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\bin\Debug\ClassLibrary1.dll
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\bin\Debug\ClassLibrary1.pdb
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csprojResolveAssemblyReference.cache
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Form1.resources
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.Properties.Resources.resources
+D:\ForwardToGreatness\ForwardToGreatness\3.8.1\WindowsFormsApplication3\obj\Debug\WindowsFormsApplication3.csproj.GenerateResource.Cache
