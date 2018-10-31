@@ -1,0 +1,15 @@
+C:\Users\Alexey\Documents\Visual Studio 2010\Projects\!Check\2018_КГ\examples\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.ExampleForm.resources
+C:\Users\Alexey\Documents\Visual Studio 2010\Projects\!Check\2018_КГ\examples\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.Properties.Resources.resources
+C:\Users\Alexey\Documents\Visual Studio 2010\Projects\!Check\2018_КГ\examples\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.csproj.GenerateResource.Cache
+C:\Users\Alexey\Documents\Visual Studio 2010\Projects\!Check\2018_КГ\examples\TestTask4_3D\TestTask4_3D\bin\Debug\TestTask4_3D.exe
+C:\Users\Alexey\Documents\Visual Studio 2010\Projects\!Check\2018_КГ\examples\TestTask4_3D\TestTask4_3D\bin\Debug\TestTask4_3D.pdb
+C:\Users\Alexey\Documents\Visual Studio 2010\Projects\!Check\2018_КГ\examples\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.exe
+C:\Users\Alexey\Documents\Visual Studio 2010\Projects\!Check\2018_КГ\examples\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.pdb
+D:\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.exe
+D:\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.pdb
+D:\TestTask4_3D\TestTask4_3D\bin\Debug\TestTask4_3D.exe
+D:\TestTask4_3D\TestTask4_3D\bin\Debug\TestTask4_3D.pdb
+D:\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.csprojResolveAssemblyReference.cache
+D:\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.ExampleForm.resources
+D:\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.Properties.Resources.resources
+D:\TestTask4_3D\TestTask4_3D\obj\x86\Debug\TestTask4_3D.csproj.GenerateResource.Cache
