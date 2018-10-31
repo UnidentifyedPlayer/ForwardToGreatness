@@ -1,0 +1,9 @@
+D:\SmoothTheAngles\SmoothTheAngles\bin\Debug\SmoothTheAngles.exe.config
+D:\SmoothTheAngles\SmoothTheAngles\bin\Debug\SmoothTheAngles.exe
+D:\SmoothTheAngles\SmoothTheAngles\bin\Debug\SmoothTheAngles.pdb
+D:\SmoothTheAngles\SmoothTheAngles\obj\Debug\SmoothTheAngles.csprojResolveAssemblyReference.cache
+D:\SmoothTheAngles\SmoothTheAngles\obj\Debug\SmoothTheAngles.Form1.resources
+D:\SmoothTheAngles\SmoothTheAngles\obj\Debug\SmoothTheAngles.Properties.Resources.resources
+D:\SmoothTheAngles\SmoothTheAngles\obj\Debug\SmoothTheAngles.csproj.GenerateResource.Cache
+D:\SmoothTheAngles\SmoothTheAngles\obj\Debug\SmoothTheAngles.exe
+D:\SmoothTheAngles\SmoothTheAngles\obj\Debug\SmoothTheAngles.pdb
