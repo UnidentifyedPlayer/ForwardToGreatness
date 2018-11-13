@@ -25,5 +25,25 @@ namespace TestTask4_3D.Math
         {
             return v.W == 0 ? new Vector3(v.X, v.Y, v.Z) : new Vector3(v.X / v.W, v.Y / v.W, v.Z / v.W);
         }
+        public static Vector3 operator -(Vector3 a, Vector3 b)
+        {
+            return new Vector3(a.X - b.X, a.Y - b.Y, a.Z - b.Z);
+        }
+        public static Vector3 operator *(Vector3 a, float b)
+        {
+            return new Vector3(b * a.X, b * a.Y, b * a.Z);
+        }
+        public static Vector3 operator *(float b , Vector3 a)
+        {
+            return new Vector3(b * a.X, b * a.Y, b * a.Z);
+        }
+        public static Vector3 operator +(Vector3 a, Vector3 b)
+        {
+            return new Vector3(a.X + b.X, a.Y + b.Y, a.Z + b.Z);
+        }
+        public static float FindDistance(Vector3 a, Vector3 b)
+        {
+            return (float)System.Math.Sqrt(System.Math.Pow(a.X - b.X, 2) + System.Math.Pow(a.Y - b.Y, 2) + System.Math.Pow(a.Z - b.Z, 2));
+        }
     }
 }

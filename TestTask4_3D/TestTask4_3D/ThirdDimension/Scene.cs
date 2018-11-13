@@ -3,17 +3,24 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Drawing;
+using TestTask4_3D.Models;
 
 namespace TestTask4_3D.ThirdDimension
 {
     public class Scene
     {
         public List<IModel> Models = new List<IModel>();
+        public Triangle a;
+        public Triangle b;
         public Bitmap DrawSceneImage(Screen s, Camera c)
         {
-            Bitmap bmp = new Bitmap(s.Size.Width, s.Size.Height);
+            Bitmap bmp = new Bitmap(s.SizeW, s.SizeH);
             Graphics g = Graphics.FromImage(bmp);
             List<PolyLine3D> lines = new List<PolyLine3D>();
+            bool areTrianglesIntersect = false;
+            Line3D lineOfIntersection= Triangle.FindTrianIntersection(a, b, ref areTrianglesIntersect);
+            if (areTrianglesIntersect)
+                Models.Add(lineOfIntersection);
             foreach (var m in Models)
                 foreach (var pl in m.GetLines())
                 {

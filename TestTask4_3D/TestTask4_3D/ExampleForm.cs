@@ -16,10 +16,18 @@ namespace TestTask4_3D
         public ExampleForm()
         {
             InitializeComponent();
-            //s.Models.Add(new Models.CubeModel(new Vector3(-0.5f, 0.5f, -0.5f), new Vector3(0.7f, -0.7f, 0.7f)));
-            //s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(1f, 0, 0)));
-            //s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 1f, 0)));
+            //s.Models.Add(new Models.CubeModel(new Vector3(0, 0, 0), new Vector3(1.7f, 1.7f, 1f)));
+            //Random rnd
+            s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(1f, 0, 0)));
+            s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 1f, 0)));
             s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 0, 1f)));
+            s.Models.Add(new Models.Line3D(new Vector3(10f, 0, 0), new Vector3(9f, 1f, 0)));
+            s.Models.Add(new Models.Line3D(new Vector3(9f, 1f, 0), new Vector3(9f, 0, 1f)));
+            s.Models.Add(new Models.Line3D(new Vector3(9f, 0, 1f), new Vector3(10f, 0, 0)));
+            s.a = new Models.Triangle(new Vector3(1f, 0f, 0f), new Vector3(0f, 1f, 0f), new Vector3(1f, 1f, 1f));
+            s.b = new Models.Triangle(new Vector3(1.5f, 0.5f, 0f), new Vector3(0.5f, 1.5f, 0f), new Vector3(0.5f, 0.5f, 1f));
+            s.Models.Add(new Models.Triangle(new Vector3(1f, 0f, 0f), new Vector3(0f, 1f, 0f), new Vector3(1f, 1f, 1f)));
+            s.Models.Add(new Models.Triangle(new Vector3(1.5f, 0.5f, 0f), new Vector3(0.5f, 1.5f, 0f), new Vector3(0.5f, 0.5f, 1f)));
         }
 
         private Scene s = new Scene();
@@ -27,7 +35,7 @@ namespace TestTask4_3D
 
         private void ExampleForm_Paint(object sender, PaintEventArgs e)
         {
-            Bitmap bmp = s.DrawSceneImage(new ThirdDimension.Screen(Size, new RectangleF(-1f, 1f, 2f, 2f)), camera);
+            Bitmap bmp = s.DrawSceneImage(new ThirdDimension.Screen((Size.Width-305), Size.Height, new RectangleF(-1f, 1f, 2f, 2f)), camera);
             e.Graphics.DrawImage(bmp, 0, 0);
             bmp.Dispose();
         }
@@ -47,6 +55,10 @@ namespace TestTask4_3D
                 lastPosition = e.Location;
                 Invalidate();
             }
+            else
+            {
+                Text = "X = " + e.X + " Y = " + e.Y; ;
+            }
         }
 
         private void ExampleForm_MouseDown(object sender, MouseEventArgs e)
@@ -57,6 +69,11 @@ namespace TestTask4_3D
         private void ExampleForm_MouseUp(object sender, MouseEventArgs e)
         {
             lastPosition = new Point();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
