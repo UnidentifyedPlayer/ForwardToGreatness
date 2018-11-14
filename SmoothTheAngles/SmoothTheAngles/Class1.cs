@@ -26,6 +26,22 @@ namespace SmoothTheAngles
             radius = rad;
             bitmap = new Bitmap(w, h);
         }
+        public Polygon(int rad, int ang, int w, int h)
+        {
+            TheP = new MyPoint[ang];
+            pts = new PointF[ang,2];
+            Angles = 0;
+            bitmap = new Bitmap(w, h);
+            radius = rad;
+        }
+        public Polygon()
+        {
+            TheP = new MyPoint[0];
+            pts = new PointF[0, 0];
+            bitmap = new Bitmap(1, 1);
+            Angles = 0;
+            radius = 0;
+        }
         private double ToRadians(double y0,double x0, double y1, double x1)
         {
             double k = (y0 - y1) / (x0 - x1);
@@ -81,14 +97,17 @@ namespace SmoothTheAngles
             double line1 = FindLength(dx1, dy1);
             double line2 = FindLength(dx2, dy2);
             double length = Math.Min(line1, line2);
-
+            PointF pt1;
+            PointF pt2;
             if (length < 2 * tang)
             {
                 tang = length / 2;
                 radius = (float)(tang * Math.Abs(tangensu));
+                pt1 = FindPoint1(TheP[i].p, tang, line1, -dx1, -dy1);
+                pt2 = FindPoint2(TheP[i].p, tang, line2, -dx2, -dy2 );
             }
-            PointF pt1 = FindPoint1(TheP[i].p, tang, line1, -dx1, -dy1);
-            PointF pt2 = FindPoint2(TheP[i].p, tang, line2, -dx2, -dy2);
+                pt1 = FindPoint1(TheP[i].p, tang, line1, -dx1, -dy1);
+                pt2 = FindPoint2(TheP[i].p, tang, line2, -dx2, -dy2);
             if (i == 0)
             {
                 pts[Angles - 1, 1] = pt2;
@@ -134,6 +153,8 @@ namespace SmoothTheAngles
             TheP[i].AngleToBegin = AngleToBegin;
             TheP[i].radius = radius;
             TheP[i].CircleCenter = CircleCenter;
+            TheP[i].pt1 = pt1;
+            TheP[i].pt2 = pt2;
         }
         public void Draw()
         {
@@ -168,8 +189,11 @@ namespace SmoothTheAngles
                         yk += ((int)pts[i, 1].Y - (int)pts[i, 0].Y) / k;
                     }
                     //DrawDDA(muhPen, (int)pts[i, 0].X, (int)pts[i, 0].Y, (int)pts[i, 1].X, (int)pts[i, 1].Y);
-                    g.DrawArc(muhPen, TheP[i].CircleCenter.X - radius, TheP[i].CircleCenter.Y - TheP[i].radius, 2 * TheP[i].radius, 2 * TheP[i].radius, (float)((180 / Math.PI) * TheP[i].AngleToBegin), (float)((180 / Math.PI) * TheP[i].TheCycle));
+                    //g.DrawArc(muhPen, TheP[i].CircleCenter.X - TheP[i].radius, TheP[i].CircleCenter.Y - TheP[i].radius, 2 * TheP[i].radius, 2 * TheP[i].radius, (float)((180 / Math.PI) * TheP[i].AngleToBegin), (float)((180 / Math.PI) * TheP[i].TheCycle));
+                    Dyga(ref bitmap, muhPen.Color, TheP[i].CircleCenter.X, TheP[i].CircleCenter.Y, TheP[i].radius, (float)((180 / Math.PI) * TheP[i].AngleToBegin), (float)((180 / Math.PI) *(TheP[i].TheCycle)));
                     bitmap.SetPixel((int)TheP[i].CircleCenter.X, (int)TheP[i].CircleCenter.Y, Color.Red);
+                    bitmap.SetPixel((int)TheP[i].pt1.X, (int)TheP[i].pt1.Y, Color.Red);
+                    bitmap.SetPixel((int)TheP[i].pt2.X, (int)TheP[i].pt2.Y, Color.Red);
                     bitmap.SetPixel((int)TheP[i].p.X, (int)TheP[i].p.Y, Color.CornflowerBlue);
                     bitmap.SetPixel((int)TheP[i].p.X+1, (int)TheP[i].p.Y-1, Color.CornflowerBlue);
                     bitmap.SetPixel((int)TheP[i].p.X+1, (int)TheP[i].p.Y+1, Color.CornflowerBlue);
@@ -178,20 +202,60 @@ namespace SmoothTheAngles
                 }
             }
         }
+        public void DrawPoints(int x, int y)
+        {
+            using (Graphics g = Graphics.FromImage(bitmap))
+            {
+                Pen muhPen = new Pen(Color.SteelBlue);
+                TheP[Angles] = new MyPoint(new PointF(x,y),radius);
+                TheP[Angles].p.Y = y;
+                Angles++;
+                DrawDDA(muhPen, x + 4, y, x - 4, y, ref bitmap);
+                DrawDDA(muhPen, x, y - 4, x, y + 4, ref bitmap);
+            }
+        }
         private double FindLength(double dx, double dy)
         {
             return Math.Sqrt(dx * dx + dy * dy);
         }
-        public void DrawDDA(Pen pen, int x1, int y1, int x2, int y2)
+        public void DrawDDA(Pen pen, int x1, int y1, int x2, int y2, ref Bitmap btm)
         {
             float xk = x1, yk = y1;
             float k = Math.Max(Math.Abs(y2 - y1), Math.Abs(x2 - x1));
             for (int i = 0; i < k; i++)
             {
                 //this.g.DrawRectangle(pen, xk, yk, 1, 1);
+                btm.SetPixel( (int)xk, (int)yk,pen.Color);
                 xk += (x2 - x1) / k;
                 yk += (y2 - y1) / k;
             }
+        }
+        public static void Dyga(ref Bitmap btm, Color color, float centerX, float centerY, float radius, float angle1, float sweepangle)
+        {
+            angle1 = (float)((angle1 / 180) * Math.PI);
+            angle1 = (float)(2 * Math.PI - angle1);
+            sweepangle = (float)((-sweepangle / 180) * Math.PI); // переход из градусов в радианы
+
+           // if (sweepangle < 0)
+           // {
+             //   angle1 = angle1 + sweepangle;
+              //  sweepangle = -sweepangle;
+            //}
+            float koef = (float)(Math.PI * 2 / (Math.Abs(sweepangle))); //определение  
+            float iterations = 10 * (float)Math.Round((2 * radius) / koef);       //оптимального количества 
+            float delta = (sweepangle) / iterations;                           //итераций
+
+            float x1 = centerX + radius * (float)Math.Cos(angle1);
+            float y1 = centerY - radius * (float)Math.Sin(angle1);
+            btm.SetPixel((int)x1, (int)y1, color);
+            for (int i = 0; i < iterations; i++)
+            {
+                angle1 += delta;
+                x1 = centerX + radius * (float)Math.Cos(angle1);
+                y1 = centerY - radius * (float)Math.Sin(angle1);
+                btm.SetPixel((int)x1, (int)y1, color);
+            }
+
         }
         public PointF FindPoint1(PointF p, double line1, double line2, double dx, double dy)
         {
@@ -212,13 +276,17 @@ namespace SmoothTheAngles
         public double AngleToBegin;
         public PointF CircleCenter;
         public float radius;
+        public PointF pt1;
+        public PointF pt2;
         public MyPoint(PointF t, float rad)
         {
             p = t;
             TheCycle = 0;
             AngleToBegin = 0;
             CircleCenter = new PointF(0, 0);
-            radius = rad; 
+            radius = rad;
+            pt1 = new PointF(0, 0);
+            pt2 = new PointF(0, 0);
         }
     }
 }

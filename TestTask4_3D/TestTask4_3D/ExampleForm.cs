@@ -18,16 +18,20 @@ namespace TestTask4_3D
             InitializeComponent();
             //s.Models.Add(new Models.CubeModel(new Vector3(0, 0, 0), new Vector3(1.7f, 1.7f, 1f)));
             //Random rnd
-            s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(1f, 0, 0)));
-            s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 1f, 0)));
-            s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 0, 1f)));
+            s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(10f, 0, 0)));
+            s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 10f, 0)));
+            s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 0, 10f)));
             s.Models.Add(new Models.Line3D(new Vector3(10f, 0, 0), new Vector3(9f, 1f, 0)));
             s.Models.Add(new Models.Line3D(new Vector3(9f, 1f, 0), new Vector3(9f, 0, 1f)));
             s.Models.Add(new Models.Line3D(new Vector3(9f, 0, 1f), new Vector3(10f, 0, 0)));
-            s.a = new Models.Triangle(new Vector3(1f, 0f, 0f), new Vector3(0f, 1f, 0f), new Vector3(1f, 1f, 1f));
-            s.b = new Models.Triangle(new Vector3(1.5f, 0.5f, 0f), new Vector3(0.5f, 1.5f, 0f), new Vector3(0.5f, 0.5f, 1f));
-            s.Models.Add(new Models.Triangle(new Vector3(1f, 0f, 0f), new Vector3(0f, 1f, 0f), new Vector3(1f, 1f, 1f)));
-            s.Models.Add(new Models.Triangle(new Vector3(1.5f, 0.5f, 0f), new Vector3(0.5f, 1.5f, 0f), new Vector3(0.5f, 0.5f, 1f)));
+            s.a = new Models.Triangle(new Vector3(1f, 0f, 0f), new Vector3(0f, 1f, 0f), new Vector3(0.5f, 0.5f, 1f));
+            s.b = new Models.Triangle(new Vector3(1.5f, 2f, 0.25f), new Vector3(0f, 0.5f, 0.25f), new Vector3(0.8f, 0.3f, 1.25f));
+            s.Models.Add(new Models.Triangle(new Vector3(1f, 0f, 0f), new Vector3(0f, 1f, 0f), new Vector3(0.5f, 0.5f, 1f)));
+            s.Models.Add(new Models.Triangle(new Vector3(1.5f, 2f, 0.25f), new Vector3(0f, 0.5f, 0.25f), new Vector3(0.8f, 0.3f, 1.25f)));
+            bool areTrianglesIntersect = false;
+            Models.Line3D lineOfIntersection = Models.Triangle.FindTrianIntersection(s.a, s.b, ref areTrianglesIntersect);
+            if (areTrianglesIntersect)
+                s.Models.Add(lineOfIntersection);
         }
 
         private Scene s = new Scene();

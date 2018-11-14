@@ -23,7 +23,7 @@ namespace TestTask4_3D.Models
         {
             Vector3 a = Points[1] - Points[0];
             Vector3 b = Points[2] - Points[0];
-            return new Vector3(a.Y * b.Z - b.Y * a.Z, a.X * b.Y - b.X * a.Y, a.Z * b.X - b.Z * a.X);
+            return new Vector3(a.Y * b.Z - b.Y * a.Z, a.Z * b.X - b.Z * a.X, a.X * b.Y - b.X * a.Y);
         }
         public Vector4 Plain()
         {
@@ -45,9 +45,9 @@ namespace TestTask4_3D.Models
                 int gg = 0;
                 bool[] g = new bool[2];
                 g[0] = IsPointInTrian(interpoints[0], b);
-                gg = (g[0]) ? gg++ : gg;
+                gg = (g[0]) ? gg+1 : gg;
                 g[1] = IsPointInTrian(interpoints[1], b);
-                gg = (g[1]) ? gg++ : gg;
+                gg = (g[1]) ? gg+1 : gg;
                 AreLinesIntersect(interpoints[0], interpoints[1], b.Points[0], b.Points[1], ref interline);
                 AreLinesIntersect(interpoints[0], interpoints[1], b.Points[1], b.Points[2], ref interline);
                 AreLinesIntersect(interpoints[0], interpoints[1], b.Points[2], b.Points[0], ref interline);
@@ -114,7 +114,7 @@ namespace TestTask4_3D.Models
                 float s = Math.Vector3.FindDistance(a0, a1);
                 if (flag)
                 {
-                    if ((s >= Math.Vector3.FindDistance(a0, interpoint)) && (s >= Math.Vector3.FindDistance(a1, interpoint)))
+                    if ((s >= Math.Vector3.FindDistance(a0, interpoint)) && (s > Math.Vector3.FindDistance(a1, interpoint)))
                         arr.Add(interpoint);
                 }
             }
@@ -140,7 +140,7 @@ namespace TestTask4_3D.Models
             Random rnd = new Random();
             float x = (a.Points[0].X+ a.Points[1].X+ a.Points[2].X)/3;
             float y = (a.Points[0].Y + a.Points[1].Y + a.Points[2].Y) / 3;
-            float z = (secplain.X * x + secplain.Y * y + secplain.W) / secplain.Z;
+            float z = (a.Points[0].Z + a.Points[1].Z + a.Points[2].Z) / 3; ;
             Vector3 b1 = new Vector3(x, y, z);
             int g = 0;
             for (int i = 0; i < 3; i++)
@@ -180,7 +180,11 @@ namespace TestTask4_3D.Models
                 Vector3 tv = c - a0;
                 float sa = Vector3.FindDistance(a0, a1);
                 float sb = Vector3.FindDistance(b0, b1);
-                if (((Vector3.FindDistance(c, a1) >= sa) && (Vector3.FindDistance(a0, c) <= sa)) && ((Vector3.FindDistance(b0, c) >= sb) && (Vector3.FindDistance(b, c) < sb)))
+                float ca1 = Vector3.FindDistance(c, a1);
+                float ca0 = Vector3.FindDistance(a0, c);
+                float cb0 = Vector3.FindDistance(b0, c);
+                float cb1 = Vector3.FindDistance(b1, c);
+                if (((Vector3.FindDistance(c, a1) <= sa) && (Vector3.FindDistance(a0, c) <= sa)) && ((Vector3.FindDistance(b0, c) <= sb) && (Vector3.FindDistance(b1, c) < sb)))
                 {
                     arr.Add(c);
                     return true;
@@ -221,7 +225,10 @@ namespace TestTask4_3D.Models
             Vector3 c = b0 + k * b;
             Vector3 tv = c - a0;
             float sb = Vector3.FindDistance(b0, b1);
-            if ((Vector3.FindDistance(c, a1) <= Vector3.FindDistance(c, a0)) && (k>=0))
+            float sa = Vector3.FindDistance(a0, a1);
+            float ca1 = Vector3.FindDistance(c, a1);
+            float ca0 = Vector3.FindDistance(a0, c);
+            if (((Vector3.FindDistance(c, a1) <= sa) && (Vector3.FindDistance(a0, c) <= sa)) && (k>0))
                 return true;
             else
                 return false;
