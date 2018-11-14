@@ -48,7 +48,6 @@
   <ItemGroup>
     <Compile Include="PlanetSystem.cs" />
     <Compile Include="PlanetClass.cs" />
-    <Compile Include="Sputnik.cs" />
     <Compile Include="Vector.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
