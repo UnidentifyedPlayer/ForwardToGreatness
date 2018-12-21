@@ -9,11 +9,13 @@ namespace TestTask4_3D.ThirdDimension
     public class PolyLine3D
     {
         public List<Vector3> points { get; private set; }
-        public PolyLine3D(IList<Vector3> p, bool closed = true)
+        public bool isIntersectionLine { get; private set; }
+        public PolyLine3D(IList<Vector3> p, bool closed = true, bool interline = false)
         {
             points = new List<Vector3>(p);
             if (closed)
             points.Add(points[0]);
+            isIntersectionLine = interline;
         }
     }
 }

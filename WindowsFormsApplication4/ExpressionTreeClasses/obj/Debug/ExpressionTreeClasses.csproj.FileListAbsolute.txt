@@ -1,0 +1,15 @@
+C:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ExpressionTreeClasses.csprojResolveAssemblyReference.cache
+C:\WindowsFormsApplication4\ExpressionTreeClasses\bin\Debug\ClassLibrary1.dll
+C:\WindowsFormsApplication4\ExpressionTreeClasses\bin\Debug\ClassLibrary1.pdb
+C:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ClassLibrary1.dll
+C:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ClassLibrary1.pdb
+E:\WindowsFormsApplication4\ExpressionTreeClasses\bin\Debug\ClassLibrary1.dll
+E:\WindowsFormsApplication4\ExpressionTreeClasses\bin\Debug\ClassLibrary1.pdb
+E:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ExpressionTreeClasses.csprojResolveAssemblyReference.cache
+E:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ClassLibrary1.dll
+E:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ClassLibrary1.pdb
+G:\WindowsFormsApplication4\ExpressionTreeClasses\bin\Debug\ClassLibrary1.dll
+G:\WindowsFormsApplication4\ExpressionTreeClasses\bin\Debug\ClassLibrary1.pdb
+G:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ExpressionTreeClasses.csprojResolveAssemblyReference.cache
+G:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ClassLibrary1.dll
+G:\WindowsFormsApplication4\ExpressionTreeClasses\obj\Debug\ClassLibrary1.pdb

@@ -1,0 +1,66 @@
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\TheGraph'sProject.csprojResolveAssemblyReference.cache
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Graph.resources
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\TheGraph'sProject.csproj.GenerateResource.Cache
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\Users\Зажравшийся Буржуй\Documents\Visual Studio 2015\Projects\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+G:\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+G:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+G:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+G:\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+G:\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+G:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\TheGraph'sProject.csprojResolveAssemblyReference.cache
+G:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Graph.resources
+G:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+G:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\TheGraph'sProject.csproj.GenerateResource.Cache
+C:\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe.config
+C:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.exe
+C:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.pdb
+C:\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.exe
+C:\WindowsFormsApplication4\WindowsFormsApplication4\bin\Debug\WindowsFormsApplication4.pdb
+C:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\TheGraph'sProject.csprojResolveAssemblyReference.cache
+C:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Graph.resources
+C:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\WindowsFormsApplication4\WindowsFormsApplication4\obj\Debug\TheGraph'sProject.csproj.GenerateResource.Cache
+C:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.exe.config
+C:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.exe
+C:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.pdb
+C:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.exe
+C:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.pdb
+C:\WindowsFormsApplication4\GraphicProject\obj\Debug\TheGraph'sProject.csprojResolveAssemblyReference.cache
+C:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.Graph.resources
+C:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+C:\WindowsFormsApplication4\GraphicProject\obj\Debug\TheGraph'sProject.csproj.GenerateResource.Cache
+C:\WindowsFormsApplication4\GraphicProject\bin\Debug\ClassLibrary1.dll
+C:\WindowsFormsApplication4\GraphicProject\bin\Debug\ExpressionParser.dll
+C:\WindowsFormsApplication4\GraphicProject\bin\Debug\ExpressionParser.pdb
+C:\WindowsFormsApplication4\GraphicProject\bin\Debug\ClassLibrary1.pdb
+E:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.exe.config
+E:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.exe
+E:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.pdb
+E:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.exe
+E:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.pdb
+E:\WindowsFormsApplication4\GraphicProject\bin\Debug\ClassLibrary1.dll
+E:\WindowsFormsApplication4\GraphicProject\bin\Debug\ExpressionParser.dll
+E:\WindowsFormsApplication4\GraphicProject\bin\Debug\ExpressionParser.pdb
+E:\WindowsFormsApplication4\GraphicProject\bin\Debug\ClassLibrary1.pdb
+E:\WindowsFormsApplication4\GraphicProject\obj\Debug\TheGraph'sProject.csprojResolveAssemblyReference.cache
+E:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.Graph.resources
+E:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+E:\WindowsFormsApplication4\GraphicProject\obj\Debug\TheGraph'sProject.csproj.GenerateResource.Cache
+G:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.exe.config
+G:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.exe
+G:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.pdb
+G:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.exe
+G:\WindowsFormsApplication4\GraphicProject\bin\Debug\WindowsFormsApplication4.pdb
+G:\WindowsFormsApplication4\GraphicProject\bin\Debug\ClassLibrary1.dll
+G:\WindowsFormsApplication4\GraphicProject\bin\Debug\ExpressionParser.dll
+G:\WindowsFormsApplication4\GraphicProject\bin\Debug\ExpressionParser.pdb
+G:\WindowsFormsApplication4\GraphicProject\bin\Debug\ClassLibrary1.pdb
+G:\WindowsFormsApplication4\GraphicProject\obj\Debug\TheGraph'sProject.csprojResolveAssemblyReference.cache
+G:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.Graph.resources
+G:\WindowsFormsApplication4\GraphicProject\obj\Debug\WindowsFormsApplication4.Properties.Resources.resources
+G:\WindowsFormsApplication4\GraphicProject\obj\Debug\TheGraph'sProject.csproj.GenerateResource.Cache

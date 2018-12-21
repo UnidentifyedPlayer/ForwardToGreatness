@@ -7,7 +7,7 @@ namespace TestTask4_3D.Math
 {
     public struct Vector3
     {
-        private float[] values;
+        public float[] values;
         public Vector3(float x, float y, float z)
         {
             values = new float[3];

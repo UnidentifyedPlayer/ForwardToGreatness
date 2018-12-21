@@ -8,6 +8,7 @@ using System.Text;
 using System.Windows.Forms;
 using TestTask4_3D.ThirdDimension;
 using TestTask4_3D.Math;
+using TestTask4_3D.Models;
 
 namespace TestTask4_3D
 {
@@ -21,25 +22,27 @@ namespace TestTask4_3D
             s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(10f, 0, 0)));
             s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 10f, 0)));
             s.Models.Add(new Models.Line3D(new Vector3(0, 0, 0), new Vector3(0, 0, 10f)));
-            s.Models.Add(new Models.Line3D(new Vector3(10f, 0, 0), new Vector3(9f, 1f, 0)));
-            s.Models.Add(new Models.Line3D(new Vector3(9f, 1f, 0), new Vector3(9f, 0, 1f)));
-            s.Models.Add(new Models.Line3D(new Vector3(9f, 0, 1f), new Vector3(10f, 0, 0)));
             s.a = new Models.Triangle(new Vector3(1f, 0f, 0f), new Vector3(0f, 1f, 0f), new Vector3(0.5f, 0.5f, 1f));
             s.b = new Models.Triangle(new Vector3(1.5f, 2f, 0.25f), new Vector3(0f, 0.5f, 0.25f), new Vector3(0.8f, 0.3f, 1.25f));
-            s.Models.Add(new Models.Triangle(new Vector3(1f, 0f, 0f), new Vector3(0f, 1f, 0f), new Vector3(0.5f, 0.5f, 1f)));
-            s.Models.Add(new Models.Triangle(new Vector3(1.5f, 2f, 0.25f), new Vector3(0f, 0.5f, 0.25f), new Vector3(0.8f, 0.3f, 1.25f)));
-            bool areTrianglesIntersect = false;
-            Models.Line3D lineOfIntersection = Models.Triangle.FindTrianIntersection(s.a, s.b, ref areTrianglesIntersect);
-            if (areTrianglesIntersect)
-                s.Models.Add(lineOfIntersection);
+            for(int i = 0; i<3; i++)
+            {
+                dataGridView1.Rows.Add();
+                for(int z = 0; z<3; z++)
+                {
+                    dataGridView1[z,i].Value = s.a.Points[i].values[z];
+                    dataGridView1[z+3,i].Value = s.b.Points[i].values[z];
+                }
+            }
         }
 
         private Scene s = new Scene();
         private Camera camera = new Camera();
+        private float squareside = 2f;
 
         private void ExampleForm_Paint(object sender, PaintEventArgs e)
         {
-            Bitmap bmp = s.DrawSceneImage(new ThirdDimension.Screen((Size.Width-305), Size.Height, new RectangleF(-1f, 1f, 2f, 2f)), camera);
+            DoubleBuffered = true;
+            Bitmap bmp = s.DrawSceneImage(new ThirdDimension.Screen((Size.Width-305), Size.Height, new RectangleF(-(squareside/2), (squareside / 2), squareside, squareside)), camera);
             e.Graphics.DrawImage(bmp, 0, 0);
             bmp.Dispose();
         }
@@ -77,7 +80,24 @@ namespace TestTask4_3D
 
         private void button1_Click(object sender, EventArgs e)
         {
+            for (int i = 0; i < 3; i++)
+            {
+                for (int z = 0; z < 3; z++)
+                {
+                    s.a.Points[i].values[z] = float.Parse(dataGridView1[z, i].Value.ToString());
+                    s.b.Points[i].values[z] = float.Parse(dataGridView1[z + 3, i].Value.ToString());
+                }
+            }
+            Invalidate();
 
+            //Triangle a = new Triangle();
+        }
+
+        private void ExampleForm_MouseWheel(object sender, MouseEventArgs e)
+        {
+            bool isZoomingIn = System.Math.Sign(e.Delta)>0;
+            squareside = (isZoomingIn) ? (squareside / 1.25f) : (squareside * 1.25f);
+            Invalidate();
         }
     }
 }

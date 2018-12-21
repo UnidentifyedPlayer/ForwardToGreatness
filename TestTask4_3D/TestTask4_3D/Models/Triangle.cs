@@ -31,9 +31,10 @@ namespace TestTask4_3D.Models
             Vector3 b = Points[0];
             return new Vector4(a.X,a.Y,a.Z,-(b.X*a.X+ b.Y * a.Y+ b.Z * a.Z));
         }
-        public static Line3D FindTrianIntersection(Triangle a, Triangle b, ref bool IsThereAnIntersection)
+        public static Line3D FindTrianIntersection(Triangle a, Triangle b)
         {
             Vector4 secplain = b.Plain();
+            bool IsThereAnIntersection = true;
             Random rnd = new Random();
             float x = rnd.Next(0, 100);
             float y = rnd.Next(0, 100);
@@ -88,7 +89,7 @@ namespace TestTask4_3D.Models
                 interpoints.Add(new Vector3(0, 0, 0));
             }
 
-            return new Line3D(interpoints[0], interpoints[1]);
+            return new Line3D(interpoints[0], interpoints[1], IsThereAnIntersection);
         }
         public static List<Vector3> FindPointsInters(List<Vector3> a, Vector4 b)
         {
